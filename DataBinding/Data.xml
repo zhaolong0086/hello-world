@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfClerk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Clerk>
+    <Name>long</Name>
+    <SurName>zhao</SurName>
+    <Sex>male</Sex>
+  </Clerk>
+  <Clerk>
+    <Name>si</Name>
+    <SurName>li</SurName>
+    <Sex>female</Sex>
+  </Clerk>
+</ArrayOfClerk>

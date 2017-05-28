@@ -1,8 +1,21 @@
 ﻿<Window x:Class="WpfLearning.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        xmlns:db="clr-namespace:WpfLearning;assembly=DataBinding"
+        xmlns:ioo="clr-namespace:WpfLearning;assembly=IoOperations"
+        xmlns:pal="clr-namespace:WpfLearning;assembly=PanelsAndLayout"
+        Title="MainWindow" Height="650" Width="825">
     <Grid>
-        
+        <TabControl SelectedIndex="0">
+            <TabItem Header="Panels and Layout">
+                <pal:PanelAndLayout/>
+            </TabItem>
+            <TabItem Header="Data binding">
+                <db:DataBindingTester/>
+            </TabItem>
+            <TabItem Header="Io Operations">
+                <ioo:IoOperationTester/>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
